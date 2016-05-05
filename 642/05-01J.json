@@ -1,0 +1,66 @@
+{
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "calbrate 37_39", 
+    "commit": "dbef31408009f73df307845cbb17a9bfac48a6ff", 
+    "conditionals": [], 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "64205", 
+    "increment": 9, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-283", 
+    "irradiation_level": "C", 
+    "irradiation_position": 4, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "Koning/Jochems", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Koning_Jochems", 
+    "sample": "15-CAB-223-AJ", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-05-05T16:51:01.317204", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "503eb0fc-aa77-48ab-8ef5-602506674942"
+}
